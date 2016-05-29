@@ -1,0 +1,85 @@
+.bg {
+  background-image: url(../img/paper.jpg);
+  position: fixed;
+  width: 100%;
+  height: 300%;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.black{
+  background: rgba(0,0,0,.7);
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 20px 40px 20px 40px;
+  border-top:1px solid rgba(255,255,255,0.2);
+}
+
+.headline {
+  text-align: center;
+  color: #cccccc;
+  font-size: 5vw;
+}
+
+.undercard {
+  text-align: center;
+  color: #996699;
+  font-size: 2.5vw;
+  margin-top: -3%;
+}
+
+.topMenu {
+    text-align: center;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 5%;
+}
+
+a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #006699;
+}
+
+.sitePhoto {
+  width: 400px;
+  height: 309px;
+}
+
+.template {
+  display: none;
+}
+
+.filters {
+  text-align: center;
+}
+
+.webName {
+  font-size: 2.5vw;
+}
+
+.clientName {
+  font-size: 1.25vw;
+  color: #996699;
+}
+
+.siteType {
+  font-size: 1.25vw;
+  color: #006699;
+  font-style: oblique;
+}
+.overview {
+  font-size: 1vw;
+  color: #cccccc;
+}
+
+#portfolio {
+  margin: 3%;
+}
